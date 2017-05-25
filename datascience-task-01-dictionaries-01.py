@@ -87,7 +87,7 @@ def friends_of_friend_ids(user):
             and foaf["id"] not in new_fl
             ] 
 
-friends_of_friend_ids(users[1])
+friends_of_friend_ids(users[1]) #foaf of user 1
 print(new_fl) #print the list of foaf
 #------------------------------------------------------------------------------
 #PROBLEM2: COMMON INTERESTS BETWEEN THE EMPLOYEES OF AN ORGANIZATION
@@ -104,7 +104,7 @@ def get_interests(user_list):
             if j not in company_interests
             ]
 
-get_interests(user_ids_by_company[2]) #get interests in company x
+get_interests(user_ids_by_company[2]) #get interests in company 2
 print(company_interests)
 
 
